@@ -7,7 +7,7 @@ const Review = require('./models/review')
 module.exports.isLoggedIn = (req, res, next) => {
   if(!req.isAuthenticated()){
     var originalUrl = req.originalUrl;
-    if(originalUrl.endsWith('DELETE')) {
+    if(originalUrl.endsWith('DELETE') || originalUrl.endsWith('reviews')) {
       originalUrl = originalUrl.split('/').slice(0, 3).join('/');
     }
     req.session.returnTo = originalUrl;
