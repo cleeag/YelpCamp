@@ -28,7 +28,7 @@ const seedDB = async () => {
       author: '5ff28e0954685713db07e8a6',
       location: `${cities[random1000].city}, ${cities[random1000].state}`,
       title: `${sample(descriptors)}, ${sample(places)}`,
-      description: 'something something',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolores vero perferendis laudantium, consequuntur voluptatibus nulla architecto, sit soluta esse iure sed labore ipsam a cum nihil atque molestiae deserunt!',
       price,
       geometry: {
         type: "Point",
@@ -43,7 +43,7 @@ const seedDB = async () => {
           filename: 'YelpCamp/pdvf2dr2vgy5pzyppbtw'
         },
         {
-          url: 'https://res.cloudinary.com/dsgkkqc2o/image/upload/v1609798390/YelpCamp/aa4bd9c2ksvmufcomepa.jpg',
+          url: 'https://res.cloudinary.com/dsgkkqc2o/image/upload/v1609907054/74ekp4sp6m951_phvy06.jpg',
           filename: 'YelpCamp/aa4bd9c2ksvmufcomepa'
         }
       ]
